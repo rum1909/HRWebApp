@@ -1,0 +1,154 @@
+﻿@model IEnumerable<HRWebApp.Models.Personal>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="module">
+    <div class="module-head">
+        <h3>Personals - @Html.ActionLink("Create New", "Create")</h3>
+    </div>
+    <div class="module-body table">
+        <div id="employeeTableContainer">
+            <table cellpadding="0" cellspacing="0" border="0" class="" width="100%" style="overflow-x:auto !important">
+                <thead>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Middle Initial</th>
+                        <th>Address1</th>
+                        <th>Address2</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Zip</th>
+                        <th>Email</th>
+                        <th>Phone_Number</th>
+                        <th>Social Security Name</th>
+                        <th>Drivers License</th>
+                        <th>Marital Status</th>
+                        <th>Gender</th>
+                        <th>Shareholder Status</th>
+                        <th>Benefits Plans</th>
+                        <th>Ethnicity</th>
+                        <th>Vacation Days</th>
+                        <th>Paid to Date</th>
+                        <th>Paid Last Year</th>
+                        <th>Pay Rate</th>
+                        <th>Pay Rate ID</th>
+                        @*<th>Created At</th>
+                        <th>Updated At</th>*@
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="employeeTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div><!--/.module-->
+<div id="paginationContainer">
+    <div id="plotContainer" style="width: 800px; height: 600px;"></div>
+</div>
+<script>
+    let data; // Variable to store data from API
+    let currentPage = 1; // Current page, starting from 1
+
+    // Fetch data from the API
+    fetch('http://localhost:5000/data')
+        .then(response => response.json())
+        .then(apiData => {
+            data = apiData;
+            console.log(data);
+            displayData(data, currentPage);
+            setupPagination(data);
+        })
+        .catch(error => console.error('Error:', error));
+
+    const tableBody = document.querySelector('#employeeTableBody');
+    const paginationContainer = document.querySelector('#paginationContainer');
+    const itemsPerPage = 10; // Number of items per page
+
+    // Function to display data in the table
+    function displayData(items, page) {
+        tableBody.innerHTML = ''; // Clear current table data
+        const startIndex = (page - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        const paginatedItems = items.slice(startIndex, endIndex);
+        paginatedItems.forEach(item => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                        <td>${item.Employee_ID}</td>
+                        <td>${item.First_Name}</td>
+                        <td>${item.Last_Name}</td>
+                        <td>${item.Middle_Initial}</td>
+                        <td>${item.Address1}</td>
+                        <td>${item.Address2}</td>
+                        <td>${item.City}</td>
+                        <td>${item.State}</td>
+                        <td>${item.Zip}</td>
+                        <td>${item.Email}</td>
+                        <td>${item.Phone_Number}</td>
+                        <td>${item.Social_Security_Number}</td>
+                        <td>${item.Drivers_License}</td>
+                        <td>${item.Marital_Status}</td>
+                        <td>${item.Gender}</td>
+                        <td>${item.Shareholder_Status}</td>
+                        <td>${item.Benefit_Plans}</td>
+                        <td>${item.Ethnicity}</td>
+                        <td>${item.vacationDays}</td>
+                        <td>${item.paidToDate}</td>
+                        <td>${item.paidLastYear}</td>
+                        <td>${item.payRate}</td>
+                        <td>${item.payRateId}</td>
+                        <td>
+                            <a href="#" onclick="editEmployee(${item.Employee_ID});">Edit | </a>
+                            <a href="#" onclick="deleteEmployee(${item.Employee_ID});">Delete</a>
+                        </td>
+                    `;
+            tableBody.appendChild(row);
+        });
+    }
+
+    // Function to set up pagination
+    function setupPagination(items) {
+        const totalPages = Math.ceil(items.length / itemsPerPage);
+        const paginationHTML = `
+                    <button onclick="prevPage()" ${currentPage === 1 ? 'disabled' : ''}>Previous</button>
+                    <span>Page ${currentPage} of ${totalPages}</span>
+                    <button onclick="nextPage()" ${currentPage === totalPages ? 'disabled' : ''}>Next</button>
+                    <div>Total Records: ${items.length}</div>
+                `;
+        paginationContainer.innerHTML = paginationHTML;
+    }
+
+    // Function to navigate to the previous page
+    function prevPage() {
+        if (currentPage > 1) {
+            currentPage--;
+            displayData(data, currentPage);
+            setupPagination(data);
+        }
+    }
+
+    // Function to navigate to the next page
+    function nextPage() {
+        const totalPages = Math.ceil(data.length / itemsPerPage);
+        if (currentPage < totalPages) {
+            currentPage++;
+            displayData(data, currentPage);
+            setupPagination(data);
+        }
+    }
+</script>
+<script>
+    // Hàm để chuyển hướng người dùng đến trang chỉnh sửa với Employee_ID tương ứng
+    function editEmployee(employeeId) {
+        // Chuyển hướng đến trang chỉnh sửa với Employee_ID như là một tham số
+        window.location.href = "/Personals/Edit/" + employeeId;
+    }
+    function deleteEmployee(employeeId) {
+        // Chuyển hướng đến trang chỉnh sửa với Employee_ID như là một tham số
+        window.location.href = "/Personals/Delete/" + employeeId;
+    }
+</script>

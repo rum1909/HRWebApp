@@ -1,0 +1,111 @@
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\HRWebApp.dll.config
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\HRWebApp.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\HRWebApp.pdb
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Helpers.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Mvc.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Razor.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Razor.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Helpers.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\System.Web.Mvc.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\obj\Debug\HRWebApp.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\obj\Debug\HRWebApp.pdb
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csprojResolveAssemblyReference.cache
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.dll
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.xml
+c:\users\kunpc\documents\visual studio 2013\Projects\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.xml
+D:\test\HRWebApp\HRWebApp\bin\HRWebApp.pdb
+D:\test\HRWebApp\HRWebApp\bin\EntityFramework.dll
+D:\test\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Web.Infrastructure.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Helpers.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Mvc.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Razor.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Webpages.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.dll
+D:\test\HRWebApp\HRWebApp\bin\EntityFramework.xml
+D:\test\HRWebApp\HRWebApp\bin\EntityFramework.SqlServer.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Razor.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Webpages.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Webpages.Deployment.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Webpages.Razor.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Helpers.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Web.Mvc.xml
+D:\test\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csproj.CoreCompileInputs.cache
+D:\test\HRWebApp\HRWebApp\obj\Debug\HRWebApp.pdb
+D:\test\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csproj.AssemblyReference.cache
+D:\test\HRWebApp\HRWebApp\bin\mongocrypt.dll
+D:\test\HRWebApp\HRWebApp\bin\AWSSDK.Core.dll
+D:\test\HRWebApp\HRWebApp\bin\AWSSDK.SecurityToken.dll
+D:\test\HRWebApp\HRWebApp\bin\DnsClient.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Win32.Registry.dll
+D:\test\HRWebApp\HRWebApp\bin\MongoDB.Bson.dll
+D:\test\HRWebApp\HRWebApp\bin\MongoDB.Driver.Core.dll
+D:\test\HRWebApp\HRWebApp\bin\MongoDB.Driver.dll
+D:\test\HRWebApp\HRWebApp\bin\MongoDB.Libmongocrypt.dll
+D:\test\HRWebApp\HRWebApp\bin\SharpCompress.dll
+D:\test\HRWebApp\HRWebApp\bin\Snappier.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Buffers.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Memory.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Numerics.Vectors.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Security.AccessControl.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Security.Principal.Windows.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Text.Encoding.CodePages.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Threading.Tasks.Extensions.dll
+D:\test\HRWebApp\HRWebApp\bin\ZstdSharp.dll
+D:\test\HRWebApp\HRWebApp\bin\AWSSDK.Core.pdb
+D:\test\HRWebApp\HRWebApp\bin\AWSSDK.Core.xml
+D:\test\HRWebApp\HRWebApp\bin\AWSSDK.SecurityToken.pdb
+D:\test\HRWebApp\HRWebApp\bin\AWSSDK.SecurityToken.xml
+D:\test\HRWebApp\HRWebApp\bin\DnsClient.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Win32.Registry.xml
+D:\test\HRWebApp\HRWebApp\bin\MongoDB.Bson.xml
+D:\test\HRWebApp\HRWebApp\bin\MongoDB.Driver.xml
+D:\test\HRWebApp\HRWebApp\bin\MongoDB.Driver.Core.xml
+D:\test\HRWebApp\HRWebApp\bin\Snappier.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Buffers.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Memory.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Numerics.Vectors.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Security.AccessControl.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Security.Principal.Windows.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Text.Encoding.CodePages.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Threading.Tasks.Extensions.xml
+D:\test\HRWebApp\HRWebApp\obj\Debug\HRWebApp.csproj.Up2Date
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Configuration.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Configuration.Json.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.FileProviders.Physical.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Primitives.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Text.Encodings.Web.dll
+D:\test\HRWebApp\HRWebApp\bin\System.Text.Json.dll
+D:\test\HRWebApp\HRWebApp\bin\System.ValueTuple.dll
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Configuration.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Configuration.FileExtensions.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Configuration.Json.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.FileProviders.Physical.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\test\HRWebApp\HRWebApp\bin\Microsoft.Extensions.Primitives.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Text.Encodings.Web.xml
+D:\test\HRWebApp\HRWebApp\bin\System.Text.Json.xml
+D:\test\HRWebApp\HRWebApp\bin\System.ValueTuple.xml
+D:\test\HRWebApp\HRWebApp\bin\HRWebApp.dll.config
+D:\test\HRWebApp\HRWebApp\bin\HRWebApp.dll
+D:\test\HRWebApp\HRWebApp\obj\Debug\HRWebApp.dll
